@@ -1,6 +1,6 @@
 package iafeyes.eyeofdragonsrebornadditions;
 
-import com.iafenvoy.iceandfire.entity.EntityHydra;
+import com.iafenvoy.iceandfire.entity.EntitySiren;
 import com.iafenvoy.iceandfire.registry.IafSounds;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.entity.Entity;
@@ -10,42 +10,42 @@ import net.minecraft.world.phys.AABB;
 
 import java.util.List;
 
-public class ItemHydraEye extends ItemSpecialEyeBase {
-    public ItemHydraEye(Properties properties) {
+public class ItemSirenEye extends ItemSpecialEyeBase {
+    public ItemSirenEye(Properties properties) {
         super(properties);
     }
 
     @Override
     protected int getSearchRadiusForDimension(String dimId) {
-        return EyeOfDragonsRebornAdditionsConfig.HYDRA_EYE.searchRadiusForDimension(dimId);
+        return EyeOfDragonsRebornAdditionsConfig.SIREN_EYE.searchRadiusForDimension(dimId);
     }
 
     @Override
     protected boolean isDimensionAllowed(String dimId) {
-        return EyeOfDragonsRebornAdditionsConfig.HYDRA_EYE.isDimensionAllowed(dimId);
+        return EyeOfDragonsRebornAdditionsConfig.SIREN_EYE.isDimensionAllowed(dimId);
     }
 
     @Override
     protected String getNotFoundKey() {
-        return "eyeofdragonsrebornadditions.hydra_eye.nonfound";
+        return "eyeofdragonsrebornadditions.siren_eye.nonfound";
     }
 
     @Override
     protected String getWrongDimensionKey() {
-        return "eyeofdragonsrebornadditions.hydra_eye.wrong_dimension";
+        return "eyeofdragonsrebornadditions.siren_eye.wrong_dimension";
     }
 
     @Override
     protected SoundEvent getUseSound() {
-        return IafSounds.HYDRA_IDLE.get();
+        return IafSounds.SIREN_SONG.get();
     }
 
     @Override
     protected List<Entity> findNearbyEntities(Level level, Player player, int radius) {
         AABB bb = new AABB(player.blockPosition()).inflate(radius);
-        return level.getEntitiesOfClass(EntityHydra.class, bb)
+        return level.getEntitiesOfClass(EntitySiren.class, bb)
                 .stream()
-                .filter(EntityHydra::isAlive)
+                .filter(EntitySiren::isAlive)
                 .map(e -> (Entity) e)
                 .toList();
     }

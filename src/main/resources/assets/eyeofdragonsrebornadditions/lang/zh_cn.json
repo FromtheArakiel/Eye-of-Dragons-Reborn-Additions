@@ -1,9 +1,11 @@
 {
   "item.eyeofdragonsrebornadditions.eye_of_hydra": "九头蛇之眼",
+  "item.eyeofdragonsrebornadditions.eye_of_siren": "塞壬之眼",
+  "item.eyeofdragonsrebornadditions.eye_of_cyclops": "独眼巨人之眼",
   "eyeofdragonsrebornadditions.hydra_eye.nonfound": "蛇眼纹丝不动，附近一定没有九头蛇",
   "eyeofdragonsrebornadditions.hydra_eye.wrong_dimension": "九头蛇之眼的力量在这里被压制了...",
-
-  "item.eyeofdragonsrebornadditions.eye_of_siren": "塞壬之眼",
-  "eyeofdragonsrebornadditions.siren_eye.nonfound": "塞壬之眼毫无反应，附近一定没有塞壬",
-  "eyeofdragonsrebornadditions.siren_eye.wrong_dimension": "塞壬之眼的力量在这里被压制了..."
+  "eyeofdragonsrebornadditions.siren_eye.nonfound": "人鱼眼纹丝不动，附近一定没有塞壬",
+  "eyeofdragonsrebornadditions.siren_eye.wrong_dimension": "塞壬之眼的力量在这里被压制了...",
+  "eyeofdragonsrebornadditions.cyclops_eye.nonfound": "巨眼纹丝不动，附近一定没有独眼巨人",
+  "eyeofdragonsrebornadditions.cyclops_eye.wrong_dimension": "独眼巨人之眼的力量在这里被压制了..."
 }

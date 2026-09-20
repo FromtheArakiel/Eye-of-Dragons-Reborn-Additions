@@ -1,5 +1,11 @@
 {
   "item.eyeofdragonsrebornadditions.eye_of_hydra": "Eye of Hydra",
+  "item.eyeofdragonsrebornadditions.eye_of_siren": "Eye of Siren",
+  "item.eyeofdragonsrebornadditions.eye_of_cyclops": "Eye of Cyclops",
   "eyeofdragonsrebornadditions.hydra_eye.nonfound": "The eye remains motionless; there must be no nearby hydras",
-  "eyeofdragonsrebornadditions.hydra_eye.wrong_dimension": "The power of the hydra eye is suppressed here..."
+  "eyeofdragonsrebornadditions.hydra_eye.wrong_dimension": "The power of the hydra eye is suppressed here...",
+  "eyeofdragonsrebornadditions.siren_eye.nonfound": "The eye remains motionless; there must be no nearby sirens",
+  "eyeofdragonsrebornadditions.siren_eye.wrong_dimension": "The power of the siren eye is suppressed here...",
+  "eyeofdragonsrebornadditions.cyclops_eye.nonfound": "The eye remains motionless; there must be no nearby cyclops",
+  "eyeofdragonsrebornadditions.cyclops_eye.wrong_dimension": "The power of the cyclops eye is suppressed here..."
 }

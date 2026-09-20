@@ -13,4 +13,14 @@ public class ItemInit {
             new ItemHydraEye(
                     new Item.Properties()
                             .stacksTo(16)));
+
+    public static final RegistryObject<Item> EYE_OF_SIREN = ITEMS.register("eye_of_siren", () ->
+            new ItemSirenEye(
+                    new Item.Properties()
+                            .stacksTo(16)));
+
+    public static final RegistryObject<Item> EYE_OF_CYCLOPS = ITEMS.register("eye_of_cyclops", () ->
+            new ItemCyclopsEye(
+                    new Item.Properties()
+                            .stacksTo(16)));
 }
